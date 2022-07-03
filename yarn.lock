@@ -1142,17 +1142,17 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@fortawesome/fontawesome-common-types@^0.2.15":
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.18.tgz#c0d8f073a5116b2de0a2c8a7aba66093a6956ce7"
-  integrity sha512-834DrzO2Ne3upCW+mJJPC/E6BsFcj+2Z1HmPIhbpbj8UaKmXWum4NClqLpUiMetugRlHuG4jbIHNdv2/lc3c1Q==
+"@fortawesome/fontawesome-common-types@^0.2.19":
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.36.tgz#b44e52db3b6b20523e0c57ef8c42d315532cb903"
+  integrity sha512-a/7BiSgobHAgBWeN7N0w+lAhInrGxksn13uK7231n2m8EDPE3BMCl9NZLTGrj9ZXfCmC6LM0QLqXidIizVQ6yg==
 
-"@fortawesome/free-solid-svg-icons@5.7.2":
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.7.2.tgz#9ec2ed353d630092a8e19cc8aae2f716572963e5"
-  integrity sha512-iujcXMyAvIbWM8W3jkOLpvJbR+rPpdN1QyqhZeJaLRdHPH4JmuovIAYP4vx5Sa1csZVXfRD1eDWqVZ/jGM620A==
+"@fortawesome/free-solid-svg-icons@5.9.0":
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.9.0.tgz#1c73e7bac17417d23f934d83f7fff5b100a7fda9"
+  integrity sha512-U8YXPfWcSozsCW0psCtlRGKjjRs5+Am5JJwLOUmVHFZbIEWzaz4YbP84EoPwUsVmSAKrisu3QeNcVOtmGml0Xw==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.15"
+    "@fortawesome/fontawesome-common-types" "^0.2.19"
 
 "@medipass/eslint-config-react-medipass@8.4.1":
   version "8.4.1"
@@ -4262,12 +4262,12 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fannypack@4.19.22:
-  version "4.19.22"
-  resolved "https://registry.yarnpkg.com/fannypack/-/fannypack-4.19.22.tgz#ecf9f6ffbca39e1d672b29770cb05ffa67fd07e9"
-  integrity sha512-QTHuMi7KEb02JRluFCbMroqFCcTeYAI3Z7qSre/9TB3t0xjKhtoRt85BQcuEOBQ/b/WyA14Lua4AS6SoKAsf0w==
+fannypack@4.21.38:
+  version "4.21.38"
+  resolved "https://registry.yarnpkg.com/fannypack/-/fannypack-4.21.38.tgz#7aa310519bf5bec033d3946caaf9e5c437a09b80"
+  integrity sha512-/GKTsokZzXYEpsOY3Fl7ViQ9fcVruzfz3EKPIWkd2+ZGsDwl2sEek4HObe5+xtJsPeTCiZUXE4CrnDK7YKuFuQ==
   dependencies:
-    "@fortawesome/free-solid-svg-icons" "5.7.2"
+    "@fortawesome/free-solid-svg-icons" "5.9.0"
     "@types/classnames" "2.2.6"
     "@types/prop-types" "15.5.8"
     "@types/styled-components" "4.1.8"
@@ -4275,12 +4275,13 @@ fannypack@4.19.22:
     classnames "2.2.6"
     conditional-wrap "1.0.0"
     focus-trap "3.0.0"
-    lodash "4.17.11"
+    lodash "4.17.13"
     markdown-react-js "1.0.2"
     polished "2.3.0"
     prop-types "15.7.2"
-    react-loads "8.0.4"
-    react-media "1.9.2"
+    react-input-mask "2.0.4"
+    react-loads-next "9.0.1"
+    react-media "1.10.0"
     react-remarkable "1.1.3"
     react-syntax-highlighter "8.0.1"
     reakit "0.16.0"
@@ -5696,7 +5697,12 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
-lodash@4.17.11, lodash@^4.17.10, lodash@^4.17.11:
+lodash@4.17.13:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#0bdc3a6adc873d2f4e0c4bac285df91b64fc7b93"
+  integrity sha512-vm3/XWXfWtRua0FkUyEHBZy8kCPjErNBT9fJx8Zvs+U6zjqPbTUOpkaoum3O5uiA8sm+yNMHXfYkTUHFoMxFNA==
+
+lodash@^4.17.10, lodash@^4.17.11:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
@@ -7199,6 +7205,14 @@ react-hotkeys@2.0.0-pre4:
   dependencies:
     prop-types "^15.6.1"
 
+react-input-mask@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-input-mask/-/react-input-mask-2.0.4.tgz#9ade5cf8196f4a856dbf010820fe75a795f3eb14"
+  integrity sha512-1hwzMr/aO9tXfiroiVCx5EtKohKwLk/NT8QlJXHQ4N+yJJFyUuMT+zfTpLBwX/lK3PkuMlievIffncpMZ3HGRQ==
+  dependencies:
+    invariant "^2.2.4"
+    warning "^4.0.2"
+
 react-inspector@^2.3.0, react-inspector@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/react-inspector/-/react-inspector-2.3.1.tgz#f0eb7f520669b545b441af9d38ec6d706e5f649c"
@@ -7218,15 +7232,15 @@ react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.2, react-lifecycles
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-loads@8.0.4:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/react-loads/-/react-loads-8.0.4.tgz#7fe35474b525997408b85ead65cb7d2c17da0427"
-  integrity sha512-NOntM/aShFPHFNIJh18XX8+pwRS8+91MguMfgnUzFo9cOjzJ6XA4y95dPDGLlXufxA/qAGYAhqYEewWhx4KlOQ==
+react-loads-next@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/react-loads-next/-/react-loads-next-9.0.1.tgz#4225c90e5be0b8014831f1d786726ec9abfd1d8f"
+  integrity sha512-B/TkmyUwm3yVbngPf7CYYQ2u+e/Vz3U59MNEseKIq9s5EFsv2xCSWfkzqu9i7wlbI5YKlLqJYo3LYeYNr87QZw==
 
-react-media@1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/react-media/-/react-media-1.9.2.tgz#423ee12f952e1d69f1b994a58d3cbed21a92b370"
-  integrity sha512-JUYECMcJIm0V61LSVKd1e+II4ZTYO0GuR7xtlvKETlmThZ416BqZjZdJ1uGqgmMAGFeJ3TG4TX/3Kg4qbR3EJw==
+react-media@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/react-media/-/react-media-1.10.0.tgz#7b0c5fe8ac55a53ce31b5249db3aaf8a22ff7703"
+  integrity sha512-FjgYmFoaPTImST06jqotuu0Mk8LOXiGYS/fIyiXuLnf20l3DPniBwtrxi604/HxxjqvmHS3oz5rAwnqdvosV4A==
   dependencies:
     "@babel/runtime" "^7.2.0"
     invariant "^2.2.2"
