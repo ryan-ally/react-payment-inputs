@@ -1154,12 +1154,11 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.15"
 
-"@medipass/eslint-config-react-medipass@8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@medipass/eslint-config-react-medipass/-/eslint-config-react-medipass-8.4.1.tgz#e496cd58866548660b9c3d798456a66785040b33"
-  integrity sha512-ZphjnaoMgMtVl51iIMD7aZHu+nbKCjNsgA0gyl4jgnRzNQYvJdduPbaryLHIax99gka2SXWfk2s2TCj+5vBbIQ==
+"@medipass/eslint-config-react-medipass@8.4.3":
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/@medipass/eslint-config-react-medipass/-/eslint-config-react-medipass-8.4.3.tgz#6d0ac9767bc0da58d767c023a05f53adb75680f2"
+  integrity sha512-WqZUK50nRFMVM1n0KAsbOXQUgVZ9YNrYmg+jq9UXk40jqdvnNipfH0dWNIr4GywDS8Vg37TZJF0CtU/BPE5rVg==
   dependencies:
-    add "2.0.6"
     eslint-config-react-app "3.0.6"
     eslint-plugin-flowtype "3.0.0"
     eslint-plugin-jsx-a11y "6.2.0"
@@ -1167,7 +1166,6 @@
     eslint-plugin-react "7.12.4"
     eslint-plugin-react-hooks "1.6.0"
     prettier "1.14.3"
-    yarn "1.13.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -1890,11 +1888,6 @@ acorn@^6.0.5, acorn@^6.0.7, acorn@^6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
-
-add@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
-  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
 
 address@1.0.3:
   version "1.0.3"
@@ -9124,8 +9117,3 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
   integrity sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
-
-yarn@1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.13.0.tgz#affa9c956739548024068532a902cf18c9cb523f"
-  integrity sha512-Unfw2eefv8imt4ZMPhvFVP44WCz38huDxkHs+Yqrx4wBTK75Tr0mh3V4rh+2Nw5iQq0rcM/VafotCZo9qTb5DA==
